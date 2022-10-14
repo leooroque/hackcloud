@@ -49,7 +49,8 @@ render(){
                 <Container>
                     <Row>
                         <Col md={{ span: 4, offset: 4 }}>
-                        <Image className="image-details" src="https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/GTS7vp0dHcafTrseQSbRohqhBsOpSQ0VW9hnsCkEPWC3K4S0LcmqLBJqtrnz9Xg1/n/oraclemetodista/b/bucket-teste/o/logoLogoComida.jpeg" rounded />
+                        <Image className="image-details" src="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grk3dzd4b4cl/b/images-mrgrowler/o/drlupulodrlupulo.jpeg" rounded />
+                        <label className="details-form" >Mr. Growler</label>
                         <Form onSubmit={this.submitForm.bind(this)}>
                                 <Form.Group controlId="formBasicEmail">
                                     <Form.Label className="details-form" >Email</Form.Label>
@@ -62,7 +63,7 @@ render(){
                                     <Form.Label className="details-form">Password</Form.Label>
                                     <Form.Control type="password" className="font-forms" placeholder="Password"  value={this.state.password} onChange={this.changeField.bind(this,'password')}/>
                                 </Form.Group>
-                                <Button variant="danger" type="submit">
+                                <Button variant="dark" type="submit">
                                     Login
                                 </Button>
                             </Form>

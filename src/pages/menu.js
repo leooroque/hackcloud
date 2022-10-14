@@ -12,7 +12,7 @@ export default function Menu() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="crestaurante" className="detail-menu">Cadastro Restaurante</Nav.Link>
-              <Nav.Link href="cpratos" className="detail-menu">Cadastro Pratos</Nav.Link>
+              <Nav.Link href="cproduto" className="detail-menu">Cadastro Produtos</Nav.Link>
               <Nav.Link href="cusuario" className="detail-menu">Cadastro Usuário</Nav.Link>
               <Nav.Link href="fpedido" className="detail-menu">Fazer Pedido</Nav.Link>
             </Nav>

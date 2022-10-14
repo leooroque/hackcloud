@@ -3,7 +3,14 @@
     margin: 50px;
 }
 
-.btn-danger {
+.btn-dark {
+    width: 20rem !important;
+    height: 5rem !important;
+    font-size: 2rem !important;
+    margin-top: 2rem !important;
+}
+
+.nome-bar {
     width: 20rem !important;
     height: 5rem !important;
     font-size: 2rem !important;
